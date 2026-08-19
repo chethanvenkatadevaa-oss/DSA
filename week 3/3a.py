@@ -1,0 +1,15 @@
+def bubble_sort(arr):
+    for i in range(n):
+        for j in range(n - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+
+n = int(input("Enter the no of elements: "))
+arr = []
+
+for i in range(n):
+    arr.append(int(input("Enter the element: ")))
+
+print(bubble_sort(arr))
